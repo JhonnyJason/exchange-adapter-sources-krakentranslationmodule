@@ -30,6 +30,10 @@ relevantAssets = [
     {
         krakenName: "SNX",
         ourName: "synthetix"
+    },
+    {
+        krakenName: "UNI",
+        ourName: "uni"
     }
 
 ]
@@ -62,6 +66,11 @@ relevantAssetPairs = [
         ourName: "synthetix-euro"
     },
     {
+        krakenName: "UNIEUR"
+        orderName: "UNIEUR"
+        ourName: "uni-euro"
+    },
+    {
         krakenName: "XETHXXBT"
         orderName: "ETHBTC"
         ourName: "ether-bitcoin"
@@ -86,6 +95,12 @@ relevantAssetPairs = [
 
     },
     {
+        krakenName: "UNIXBT"
+        orderName: "UNIBTC"
+        ourName: "uni-bitcoin"
+
+    },
+    {
         krakenName: "LINKETH"
         orderName: "LINKETH"
         ourName: "link-ether"
@@ -101,6 +116,12 @@ relevantAssetPairs = [
         krakenName: "DOTETH"
         orderName: "DOTETH"
         ourName: "polkadot-ether"
+
+    },
+    {
+        krakenName: "UNIETH"
+        orderName: "UNIETH"
+        ourName: "uni-ether"
 
     }
 ]
