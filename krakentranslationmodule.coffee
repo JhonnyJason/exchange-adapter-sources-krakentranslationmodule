@@ -34,12 +34,21 @@ relevantAssets = [
     {
         krakenName: "UNI",
         ourName: "uni"
+    },
+    {
+        krakenName: "ADA",
+        ourName: "ada"
+    },
+    {
+        krakenName: "AAVE",
+        ourName: "aave"
     }
 
 ]
 
 ############################################################
 relevantAssetPairs = [
+    ## TO EURO
     {
         krakenName: "XETHZEUR"
         orderName: "ETHEUR"
@@ -71,6 +80,17 @@ relevantAssetPairs = [
         ourName: "uni-euro"
     },
     {
+        krakenName: "ADAEUR"
+        orderName: "ADAEUR"
+        ourName: "ada-euro"
+    },
+    {
+        krakenName: "AAVEEUR"
+        orderName: "AAVEEUR"
+        ourName: "aave-euro"
+    },
+    ## TO BITCOIN
+    {
         krakenName: "XETHXXBT"
         orderName: "ETHBTC"
         ourName: "ether-bitcoin"
@@ -101,6 +121,19 @@ relevantAssetPairs = [
 
     },
     {
+        krakenName: "ADAXBT"
+        orderName: "ADABTC"
+        ourName: "ada-bitcoin"
+
+    },
+    {
+        krakenName: "AAVEXBT"
+        orderName: "AAVEBTC"
+        ourName: "aave-bitcoin"
+
+    },
+    ## TO ETHER
+    {
         krakenName: "LINKETH"
         orderName: "LINKETH"
         ourName: "link-ether"
@@ -123,6 +156,18 @@ relevantAssetPairs = [
         orderName: "UNIETH"
         ourName: "uni-ether"
 
+    },
+    {
+        krakenName: "ADAETH"
+        orderName: "ADAETH"
+        ourName: "ada-ether"
+
+    },
+    {
+        krakenName: "AAVEETH"
+        orderName: "AAVEETH"
+        ourName: "aave-ether"
+
     }
 ]
 
@@ -140,227 +185,3 @@ krakentranslationmodule.relevantAssets = relevantAssets
 #endregion
 
 export default krakentranslationmodule
-
-## update on 6.10.2020
-# [
-#     "ADAETH",
-#     "ADAEUR",
-#     "ADAUSD",
-#     "ADAXBT",
-#     "ALGOETH",
-#     "ALGOEUR",
-#     "ALGOUSD",
-#     "ALGOXBT",
-#     "ATOMETH",
-#     "ATOMEUR",
-#     "ATOMUSD",
-#     "ATOMXBT",
-#     "AUDJPY",
-#     "AUDUSD",
-#     "BALETH",
-#     "BALEUR",
-#     "BALUSD",
-#     "BALXBT",
-#     "BATETH",
-#     "BATEUR",
-#     "BATUSD",
-#     "BATXBT",
-#     "BCHAUD",
-#     "BCHETH",
-#     "BCHEUR",
-#     "BCHGBP",
-#     "BCHUSD",
-#     "BCHUSDT",
-#     "BCHXBT",
-#     "COMPETH",
-#     "COMPEUR",
-#     "COMPUSD",
-#     "COMPXBT",
-#     "CRVETH",
-#     "CRVEUR",
-#     "CRVUSD",
-#     "CRVXBT",
-#     "DAIEUR",
-#     "DAIUSD",
-#     "DAIUSDT",
-#     "DASHEUR",
-#     "DASHUSD",
-#     "DASHXBT",
-#     "DOTETH",
-#     "DOTEUR",
-#     "DOTUSD",
-#     "DOTXBT",
-#     "EOSETH",
-#     "EOSEUR",
-#     "EOSUSD",
-#     "EOSXBT",
-#     "ETHAUD",
-#     "ETHCHF",
-#     "ETHDAI",
-#     "ETHUSDC",
-#     "ETHUSDT",
-#     "EURAUD",
-#     "EURCAD",
-#     "EURCHF",
-#     "EURGBP",
-#     "EURJPY",
-#     "GNOETH",
-#     "GNOEUR",
-#     "GNOUSD",
-#     "GNOXBT",
-#     "ICXETH",
-#     "ICXEUR",
-#     "ICXUSD",
-#     "ICXXBT",
-#     "KAVAETH",
-#     "KAVAEUR",
-#     "KAVAUSD",
-#     "KAVAXBT",
-#     "KNCETH",
-#     "KNCEUR",
-#     "KNCUSD",
-#     "KNCXBT",
-#     "KSMETH",
-#     "KSMEUR",
-#     "KSMUSD",
-#     "KSMXBT",
-#     "LINKETH",
-#     "LINKEUR",
-#     "LINKUSD",
-#     "LINKXBT",
-#     "LSKETH",
-#     "LSKEUR",
-#     "LSKUSD",
-#     "LSKXBT",
-#     "LTCAUD",
-#     "LTCETH",
-#     "LTCGBP",
-#     "LTCUSDT",
-#     "NANOETH",
-#     "NANOEUR",
-#     "NANOUSD",
-#     "NANOXBT",
-#     "OMGETH",
-#     "OMGEUR",
-#     "OMGUSD",
-#     "OMGXBT",
-#     "OXTETH",
-#     "OXTEUR",
-#     "OXTUSD",
-#     "OXTXBT",
-#     "PAXGETH",
-#     "PAXGEUR",
-#     "PAXGUSD",
-#     "PAXGXBT",
-#     "QTUMETH",
-#     "QTUMEUR",
-#     "QTUMUSD",
-#     "QTUMXBT",
-#     "REPV2ETH",
-#     "REPV2EUR",
-#     "REPV2USD",
-#     "REPV2XBT",
-#     "SCETH",
-#     "SCEUR",
-#     "SCUSD",
-#     "SCXBT",
-#     "SNXETH",
-#     "SNXEUR",
-#     "SNXUSD",
-#     "SNXXBT",
-#     "STORJETH",
-#     "STORJEUR",
-#     "STORJUSD",
-#     "STORJXBT",
-#     "TRXETH",
-#     "TRXEUR",
-#     "TRXUSD",
-#     "TRXXBT",
-#     "USDCEUR",
-#     "USDCHF",
-#     "USDCUSD",
-#     "USDCUSDT",
-#     "USDTAUD",
-#     "USDTCAD",
-#     "USDTCHF",
-#     "USDTEUR",
-#     "USDTGBP",
-#     "USDTJPY",
-#     "USDTZUSD",
-#     "WAVESETH",
-#     "WAVESEUR",
-#     "WAVESUSD",
-#     "WAVESXBT",
-#     "XBTAUD",
-#     "XBTCHF",
-#     "XBTDAI",
-#     "XBTUSDC",
-#     "XBTUSDT",
-#     "XDGEUR",
-#     "XDGUSD",
-#     "XETCXETH",
-#     "XETCXXBT",
-#     "XETCZEUR",
-#     "XETCZUSD",
-#     "XETHXXBT",
-#     "XETHXXBT.d",
-#     "XETHZCAD",
-#     "XETHZCAD.d",
-#     "XETHZEUR",
-#     "XETHZEUR.d",
-#     "XETHZGBP",
-#     "XETHZGBP.d",
-#     "XETHZJPY",
-#     "XETHZJPY.d",
-#     "XETHZUSD",
-#     "XETHZUSD.d",
-#     "XLTCXXBT",
-#     "XLTCZEUR",
-#     "XLTCZUSD",
-#     "XMLNXETH",
-#     "XMLNXXBT",
-#     "XMLNZEUR",
-#     "XMLNZUSD",
-#     "XREPXETH",
-#     "XREPXXBT",
-#     "XREPZEUR",
-#     "XREPZUSD",
-#     "XRPAUD",
-#     "XRPETH",
-#     "XRPGBP",
-#     "XRPUSDT",
-#     "XTZETH",
-#     "XTZEUR",
-#     "XTZUSD",
-#     "XTZXBT",
-#     "XXBTZCAD",
-#     "XXBTZCAD.d",
-#     "XXBTZEUR",
-#     "XXBTZEUR.d",
-#     "XXBTZGBP",
-#     "XXBTZGBP.d",
-#     "XXBTZJPY",
-#     "XXBTZJPY.d",
-#     "XXBTZUSD",
-#     "XXBTZUSD.d",
-#     "XXDGXXBT",
-#     "XXLMXXBT",
-#     "XXLMZEUR",
-#     "XXLMZUSD",
-#     "XXMRXXBT",
-#     "XXMRZEUR",
-#     "XXMRZUSD",
-#     "XXRPXXBT",
-#     "XXRPZCAD",
-#     "XXRPZEUR",
-#     "XXRPZJPY",
-#     "XXRPZUSD",
-#     "XZECXXBT",
-#     "XZECZEUR",
-#     "XZECZUSD",
-#     "ZEURZUSD",
-#     "ZGBPZUSD",
-#     "ZUSDZCAD",
-#     "ZUSDZJPY"
-# ]
-
