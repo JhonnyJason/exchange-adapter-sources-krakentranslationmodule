@@ -141,7 +141,7 @@ relevantAssetPairs = [
     },
     {
         krakenName: "ADAXBT"
-        orderName: "ADAXBT"
+        orderName: "ADABTC"
         ourName: "ada-bitcoin"
 
     },
@@ -213,7 +213,7 @@ relevantAssetPairs = [
 #endregion
 
 ############################################################
-krakentranslationmodule.initialize = () ->
+krakentranslationmodule.initialize = ->
     log "krakentranslationmodule.initialize"
     return
 
