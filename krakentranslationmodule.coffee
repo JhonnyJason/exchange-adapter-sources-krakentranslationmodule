@@ -141,7 +141,7 @@ relevantAssetPairs = [
     },
     {
         krakenName: "ADAXBT"
-        orderName: "ADABTC"
+        orderName: "ADAXBT"
         ourName: "ada-bitcoin"
 
     },
