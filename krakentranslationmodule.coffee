@@ -42,8 +42,17 @@ relevantAssets = [
     {
         krakenName: "AAVE",
         ourName: "aave"
-    }
+    },
+    {
+        krakenName: "FIL",
+        ourName: "filecoin"
 
+    },
+    {
+        krakenName: "ALGO",
+        ourName: "algorand"
+
+    }
 ]
 
 ############################################################
@@ -89,6 +98,16 @@ relevantAssetPairs = [
         orderName: "AAVEEUR"
         ourName: "aave-euro"
     },
+    {
+        krakenName: "FILEUR"
+        orderName: "FILEUR"
+        ourName: "filecoin-euro"
+    },
+    {
+        krakenName: "ALGOEUR"
+        orderName: "ALGOEUR"
+        ourName: "algorand-euro"
+    },
     ## TO BITCOIN
     {
         krakenName: "XETHXXBT"
@@ -132,6 +151,16 @@ relevantAssetPairs = [
         ourName: "aave-bitcoin"
 
     },
+    {
+        krakenName: "FILXBT"
+        orderName: "FILBTC"
+        ourName: "filecoin-bitcoin"
+    },
+    {
+        krakenName: "ALGOXBT"
+        orderName: "ALGOBTC"
+        ourName: "algorand-bitcoin"
+    },
     ## TO ETHER
     {
         krakenName: "LINKETH"
@@ -168,6 +197,16 @@ relevantAssetPairs = [
         orderName: "AAVEETH"
         ourName: "aave-ether"
 
+    },
+    {
+        krakenName: "FILETH"
+        orderName: "FILETH"
+        ourName: "filecoin-ether"
+    },
+    {
+        krakenName: "ALGOETH"
+        orderName: "ALGOETH"
+        ourName: "algorand-ether"
     }
 ]
 
