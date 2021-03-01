@@ -12,7 +12,7 @@ relevantAssets = [
         ourName: "euro"
     },
     {
-        krakenName: "XBTC",
+        krakenName: "XBT",
         ourName: "bitcoin"
     },
     {
