@@ -147,18 +147,18 @@ relevantAssetPairs = [
     },
     {
         krakenName: "AAVEXBT"
-        orderName: "AAVEBTC"
+        orderName: "AAVEXBT"
         ourName: "aave-bitcoin"
 
     },
     {
         krakenName: "FILXBT"
-        orderName: "FILBTC"
+        orderName: "FILXBT"
         ourName: "filecoin-bitcoin"
     },
     {
         krakenName: "ALGOXBT"
-        orderName: "ALGOBTC"
+        orderName: "ALGOXBT"
         ourName: "algorand-bitcoin"
     },
     ## TO ETHER
