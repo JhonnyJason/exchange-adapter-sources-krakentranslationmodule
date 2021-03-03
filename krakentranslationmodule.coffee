@@ -123,7 +123,7 @@ relevantAssetPairs = [
     },
     {
         krakenName: "SNXXBT"
-        orderName: "SNXBTC"
+        orderName: "SNXXBT"
         ourName: "synthetix-bitcoin"
 
     },
