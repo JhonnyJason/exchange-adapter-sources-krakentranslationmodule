@@ -134,7 +134,7 @@ relevantAssetPairs = [
 
     },
     {
-        krakenName: "UNIXBT"
+        krakenName: "UNIBTC"
         orderName: "UNIBTC"
         ourName: "uni-bitcoin"
 
