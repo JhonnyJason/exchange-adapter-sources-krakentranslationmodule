@@ -111,13 +111,13 @@ relevantAssetPairs = [
     ## TO BITCOIN
     {
         krakenName: "XETHXXBT"
-        orderName: "ETHBTC"
+        orderName: "ETHXBT"
         ourName: "ether-bitcoin"
 
     },
     {
         krakenName: "LINKXBT"
-        orderName: "LINKBTC"
+        orderName: "LINKXBT"
         ourName: "link-bitcoin"
 
     },
@@ -129,13 +129,13 @@ relevantAssetPairs = [
     },
     {
         krakenName: "DOTXBT"
-        orderName: "DOTBTC"
+        orderName: "DOTXBT"
         ourName: "polkadot-bitcoin"
 
     },
     {
-        krakenName: "UNIBTC"
-        orderName: "UNIBTC"
+        krakenName: "UNIXBT"
+        orderName: "UNIXBT"
         ourName: "uni-bitcoin"
 
     },
