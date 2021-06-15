@@ -52,6 +52,11 @@ relevantAssets = [
         krakenName: "ALGO",
         ourName: "algorand"
 
+    },
+    {
+        krakenName: "BNT",
+        ourName: "bancor"
+
     }
 ]
 
@@ -108,6 +113,11 @@ relevantAssetPairs = [
         orderName: "ALGOEUR"
         ourName: "algorand-euro"
     },
+    {
+        krakenName: "BNTEUR"
+        orderName: "BNTEUR"
+        ourName: "bancor-euro"
+    },
     ## TO BITCOIN
     {
         krakenName: "XETHXXBT"
@@ -160,6 +170,11 @@ relevantAssetPairs = [
         krakenName: "ALGOXBT"
         orderName: "ALGOXBT"
         ourName: "algorand-bitcoin"
+    },
+    {
+        krakenName: "BNTXBT"
+        orderName: "BNTXBT"
+        ourName: "bancor-bitcoin"
     },
     ## TO ETHER
     {
