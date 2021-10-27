@@ -57,6 +57,11 @@ relevantAssets = [
         krakenName: "BNT",
         ourName: "bancor"
 
+    },
+    {
+        krakenName: "SOL",
+        ourName: "solana"
+
     }
 ]
 
@@ -118,6 +123,11 @@ relevantAssetPairs = [
         orderName: "BNTEUR"
         ourName: "bancor-euro"
     },
+    {
+        krakenName: "SOLEUR"
+        orderName: "SOLEUR"
+        ourName: "solana-euro"
+    },
     ## TO BITCOIN
     {
         krakenName: "XETHXXBT"
@@ -175,6 +185,11 @@ relevantAssetPairs = [
         krakenName: "BNTXBT"
         orderName: "BNTXBT"
         ourName: "bancor-bitcoin"
+    },
+    {
+        krakenName: "SOLXBT"
+        orderName: "SOLXBT"
+        ourName: "solana-bitcoin"
     },
     ## TO ETHER
     {
