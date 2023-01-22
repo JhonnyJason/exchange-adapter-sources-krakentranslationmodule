@@ -1,12 +1,5 @@
-krakentranslationmodule = {name: "krakentranslationmodule"}
 ############################################################
-log = (arg) ->
-    if allModules.debugmodule.modulesToDebug["krakentranslationmodule"]?  then console.log "[krakentranslationmodule]: " + arg
-    return
-
-############################################################
-#region assetConfig
-relevantAssets = [
+export relevantAssets = [
     {
         krakenName: "ZEUR",
         ourName: "euro"
@@ -66,7 +59,7 @@ relevantAssets = [
 ]
 
 ############################################################
-relevantAssetPairs = [
+export relevantAssetPairs = [
     ## TO EURO
     {
         krakenName: "XETHZEUR"
@@ -239,18 +232,3 @@ relevantAssetPairs = [
         ourName: "algorand-ether"
     }
 ]
-
-#endregion
-
-############################################################
-krakentranslationmodule.initialize = () ->
-    log "krakentranslationmodule.initialize"
-    return
-
-############################################################
-krakentranslationmodule.relevantAssetPairs = relevantAssetPairs
-krakentranslationmodule.relevantAssets = relevantAssets
-
-#endregion
-
-export default krakentranslationmodule
